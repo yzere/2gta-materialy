@@ -61,10 +61,10 @@ A computer network is a group of computers that use a set of common communicatio
 
 Twisted-pair cable
 
-They were developed strictly for networking purposes. They are also knows as "Ethernet cables". Nearly all modern day networks use this type of cable. They consist of 4 pairs, 8 wires in total, twisted together to mitigate EMI (electro-magnetic interference). Their max lenght is 100m.
+> They were developed strictly for networking purposes. They are also knows as "Ethernet cables". Nearly all modern day networks use this type of cable. They consist of 4 pairs, 8 wires in total, twisted together to mitigate EMI (electro-magnetic interference). Their max lenght is 100m.
 
-/UTP - unshielded twisted pair - all 4 pairs are wrapped in one sheath
-/STP - shielded twisted pair - each pair is wrapped in metal shield to mitigate even more EMI between pairs and then into one sheath
+- UTP - unshielded twisted pair - all 4 pairs are wrapped in one sheath
+- STP - shielded twisted pair - each pair is wrapped in metal shield to mitigate even more EMI between pairs and then into one sheath
 
 There are two main types of ethernet cables:
 /straight-through cable - these are used to connect other network devices to layer 1 and 2 devices such as switches and hubs.
