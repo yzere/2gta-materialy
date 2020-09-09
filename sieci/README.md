@@ -119,3 +119,7 @@ Pin layout and functions of RJ-45 connector, that is the most popular interface 
 </p>
 
 ### SFP transceiver
+
+<p align="center">
+  <img src="/media/sfp-image.jpg">
+</p>
