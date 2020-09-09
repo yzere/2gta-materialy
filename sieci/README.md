@@ -79,11 +79,16 @@ Difference between the two is on pin arrangement shown on included photo.
   <img src="/media/straight-cross.jpg">
 </p>
 
-Optic fiber cable
+### Optic fiber cable
+
 Fiber cables use light to transmit data through a glass crystal core. It was designed for transition of large amount of data on longer distances. In contrast to UTP cables, these can go up to  30-50km depending on revision and quality of cable. They also require special connector SFP transceiver (Small form-factor pluggable).
 
-/SMF - single mode fiber
-More expensive type of fiber cables. It consists of core that allows light to travel under one angle. This makes it go further and have higher bandwidth. It is moslty used in MAN networks and to transfer data to other building in town.
+<p align="center">
+  <img src="/media/fiber-crossection.jpg">
+</p>
 
-/MMF - multi mode fiber
-Less expensive type of fiber cable. Core of this type of cable allows light to travel under many angles. This decreases its reach and bandwidth but is much cheaper to produce. You would see it in datacenters where there are distances longer than 100m that requiring fast and responsive answer.
+- SMF - single mode fiber
+> More expensive type of fiber cables. It consists of core that allows light to travel under one angle. This makes it go further and have higher bandwidth. It is moslty used in MAN networks and to transfer data to other building in town.
+
+- MMF - multi mode fiber
+> Less expensive type of fiber cable. Core of this type of cable allows light to travel under many angles. This decreases its reach and bandwidth but is much cheaper to produce. You would see it in datacenters where there are distances longer than 100m that requiring fast and responsive answer.
