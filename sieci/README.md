@@ -59,17 +59,25 @@ A computer network is a group of computers that use a set of common communicatio
   <img src="/media/coaxial.jpg">
 </p>
 
-Twisted-pair cable
+### Twisted-pair cable
 
 > They were developed strictly for networking purposes. They are also knows as "Ethernet cables". Nearly all modern day networks use this type of cable. They consist of 4 pairs, 8 wires in total, twisted together to mitigate EMI (electro-magnetic interference). Their max lenght is 100m.
 
 - UTP - unshielded twisted pair - all 4 pairs are wrapped in one sheath
 - STP - shielded twisted pair - each pair is wrapped in metal shield to mitigate even more EMI between pairs and then into one sheath
 
-There are two main types of ethernet cables:
-/straight-through cable - these are used to connect other network devices to layer 1 and 2 devices such as switches and hubs.
-/cross-over cable - these are used to connect devices from layer 3 and higher together, and to ceonnect switches together. Their main goal is to allow connect devices with the same pin arangement. Today 
+<p align="center">
+  <img src="/media/utp-stp.jpg">
+</p>
+
+#### There are two main types of ethernet cables:
+- straight-through cable - these are used to connect other network devices to layer 1 and 2 devices such as switches and hubs.
+- cross-over cable - these are used to connect devices from layer 3 and higher together, and to ceonnect switches together. Their main goal is to allow connect devices with the same pin arangement. Today 
 Difference between the two is on pin arrangement shown on included photo.
+
+<p align="center">
+  <img src="/media/straight-cross.jpg">
+</p>
 
 Optic fiber cable
 Fiber cables use light to transmit data through a glass crystal core. It was designed for transition of large amount of data on longer distances. In contrast to UTP cables, these can go up to  30-50km depending on revision and quality of cable. They also require special connector SFP transceiver (Small form-factor pluggable).
