@@ -12,11 +12,14 @@ A computer network is a group of computers that use a set of common communicatio
 
 ## Network devices:
 
+![GitHub Logo](/media/network-devices.jpg)
+Format: ![Alt Text](url)
+
 ### End-hosts
 - Clients (def. Clients are nodes that access resources or services shared on the network by a server)
- - PC
- - Laptop
- - Smartphone
+  - PC
+  - Laptop
+  - Smartphone
 - Servers (def. Servers are nodes that provide resources or services via network for client)
 
 ### Border
