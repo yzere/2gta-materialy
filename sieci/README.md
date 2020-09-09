@@ -92,3 +92,27 @@ Fiber cables use light to transmit data through a glass crystal core. It was des
 
 - MMF - multi mode fiber
 > Less expensive type of fiber cable. Core of this type of cable allows light to travel under many angles. This decreases its reach and bandwidth but is much cheaper to produce. You would see it in datacenters where there are distances longer than 100m that requiring fast and responsive answer.
+
+### Cables specs
+Down below are tables with standars for ethernet and fiber cables.
+
+#### Ethernet
+
+<p align="center">
+  <img src="/media/ethernet-table.png">
+</p>
+
+#### Fiber
+
+<p align="center">
+  <img src="/media/fiber-table.png">
+</p>
+
+## Interfaces / Connectors
+
+Pin layout and functions of RJ-45 connector, that is the most popular interface for ethernet cables.
+
+<p align="center">
+  <img src="/media/pins.jpg">
+</p>
+
