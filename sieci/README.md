@@ -11,7 +11,10 @@ Tutaj zamieszczone zostają notatki z zagadnień CISCO w języku angielskim.
 A computer network is a group of computers that use a set of common communication protocols over digital interconnections for the purpose of sharing resources located on or provided by the network nodes. 
 
 ## Network devices:
-<img src="/media/network-devices.jpg" style="align:center")
+
+<p align="center">
+  <img src="/media/network-devices.jpg">
+</p>
 
 ![Network Devices icons](/media/network-devices.jpg)
 
