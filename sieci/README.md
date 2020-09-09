@@ -16,8 +16,6 @@ A computer network is a group of computers that use a set of common communicatio
   <img src="/media/network-devices.jpg">
 </p>
 
-![Network Devices icons](/media/network-devices.jpg)
-
 ### End-hosts
 - Clients (def. Clients are nodes that access resources or services shared on the network by a server)
   - PC
