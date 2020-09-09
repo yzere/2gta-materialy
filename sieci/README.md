@@ -4,7 +4,7 @@ Tutaj zamieszczone zostają notatki z zagadnień CISCO w języku angielskim.
 
 
 
-# Urządzenia sieciowe / Network devices
+# Notatka 1: Urządzenia sieciowe / Network devices
 
 ## Definition of Computer network:
 
@@ -46,3 +46,31 @@ A computer network is a group of computers that use a set of common communicatio
 
 - Repeater
 > Repeaters are used to extend physical range of network. Their usage is posed when network requires to connect devices on lengths larger than Ethernet cables can provide. Now they are mostly underused because optic fiber cables can operate even on MAN bases.
+
+# Notatka 2: Cables and interfaces
+
+In use today we specify 3 types of cable:
+Coaxial (pl. koncentryczne)
+
+These cables consist of copper core that transmits data. They were not developed to transmit network data but because of lack of options for this purpouse, admins started to build networks based on them. Their slow bandwith and structure brought them to extinction, where non of new networks use them.
+ 
+Twisted-pair cable
+
+They were developed strictly for networking purposes. They are also knows as "Ethernet cables". Nearly all modern day networks use this type of cable. They consist of 4 pairs, 8 wires in total, twisted together to mitigate EMI (electro-magnetic interference). Their max lenght is 100m.
+
+/UTP - unshielded twisted pair - all 4 pairs are wrapped in one sheath
+/STP - shielded twisted pair - each pair is wrapped in metal shield to mitigate even more EMI between pairs and then into one sheath
+
+There are two main types of ethernet cables:
+/straight-through cable - these are used to connect other network devices to layer 1 and 2 devices such as switches and hubs.
+/cross-over cable - these are used to connect devices from layer 3 and higher together, and to ceonnect switches together. Their main goal is to allow connect devices with the same pin arangement. Today 
+Difference between the two is on pin arrangement shown on included photo.
+
+Optic fiber cable
+Fiber cables use light to transmit data through a glass crystal core. It was designed for transition of large amount of data on longer distances. In contrast to UTP cables, these can go up to  30-50km depending on revision and quality of cable. They also require special connector SFP transceiver (Small form-factor pluggable).
+
+/SMF - single mode fiber
+More expensive type of fiber cables. It consists of core that allows light to travel under one angle. This makes it go further and have higher bandwidth. It is moslty used in MAN networks and to transfer data to other building in town.
+
+/MMF - multi mode fiber
+Less expensive type of fiber cable. Core of this type of cable allows light to travel under many angles. This decreases its reach and bandwidth but is much cheaper to produce. You would see it in datacenters where there are distances longer than 100m that requiring fast and responsive answer.
