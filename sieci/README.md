@@ -110,9 +110,12 @@ Down below are tables with standars for ethernet and fiber cables.
 
 ## Interfaces / Connectors
 
+### RJ-45 (or 8P8C)
+
 Pin layout and functions of RJ-45 connector, that is the most popular interface for ethernet cables.
 
 <p align="center">
   <img src="/media/pins.jpg">
 </p>
 
+### SFP transceiver
