@@ -49,11 +49,16 @@ A computer network is a group of computers that use a set of common communicatio
 
 # Notatka 2: Cables and interfaces
 
-In use today we specify 3 types of cable:
-Coaxial (pl. koncentryczne)
+## In use today we specify 3 types of cable:
 
-These cables consist of copper core that transmits data. They were not developed to transmit network data but because of lack of options for this purpouse, admins started to build networks based on them. Their slow bandwith and structure brought them to extinction, where non of new networks use them.
- 
+### Coaxial (pl. koncentryczne)
+
+> These cables consist of copper core that transmits data. They were not developed to transmit network data but because of lack of options for this purpouse, admins started to build networks based on them. Their slow bandwith and structure brought them to extinction, where non of new networks use them.
+
+<p align="center">
+  <img src="/media/coaxial.jpg">
+</p>
+
 Twisted-pair cable
 
 They were developed strictly for networking purposes. They are also knows as "Ethernet cables". Nearly all modern day networks use this type of cable. They consist of 4 pairs, 8 wires in total, twisted together to mitigate EMI (electro-magnetic interference). Their max lenght is 100m.
