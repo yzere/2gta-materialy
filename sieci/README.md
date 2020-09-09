@@ -65,6 +65,7 @@ A computer network is a group of computers that use a set of common communicatio
 
 - UTP - unshielded twisted pair - all 4 pairs are wrapped in one sheath
 - STP - shielded twisted pair - each pair is wrapped in metal shield to mitigate even more EMI between pairs and then into one sheath
+- FTP - foil screened twisted pair - all 4 pair are wraped in foil that shields cable from outer interference.
 
 <p align="center">
   <img src="/media/utp-stp.jpg">
