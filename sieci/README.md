@@ -136,6 +136,7 @@ This briefly means that networking models try to gather together ways our media 
 **OSI model is precursor of todays IP/TCP suit. Sheer OSI model is not in use today but network engineers tend to refare to OSI model when talking about data on network. It is important that you also understand concepts of IP/TCP suit and its correlations to OSI model. It will allow for greater understanding of network basics. **
 
 Links to one of the best explanations of OSI model as well as its real world examples:
+
 <a href="https://www.youtube.com/watch?v=CRdL1PcherM"> OSI model explaination </a>
 <br>
 <a href="https://www.youtube.com/watch?v=3kfO61Mensg"> OSI model real world examples </a>
@@ -145,9 +146,10 @@ Links to one of the best explanations of OSI model as well as its real world exa
 > The Open Systems Interconnection model (OSI model) is a conceptual model that characterises and standardises the communication functions of a telecommunication or computing system without regard to its underlying internal structure and technology.
 
 ### OSI stack can be a bit tricky to understand, but to put it in simple terms:
+<br>
 
-> OSI model specifies how (what protocol, what format, what data, what voltage) network traffic is processed, send, recived and read by media devices. Process of packing network data into these 7 layers is called Encapsulation. It allows to, following standards, pack data into packets that can be processed by any device on its way.
-
+OSI model specifies how (what protocol, what format, what data, what voltage) network traffic is processed, send, recived and read by media devices. Process of packing network data into these 7 layers is called Encapsulation. It allows to, following standards, pack data into packets that can be processed by any device on its way.
+<br>
 IP/TCP as a child grown by OSI model is very similar to it. The difference between the two is that IP/TCP merges aplicaton, presentation and sesion into one layer, Application. It also merges data link and physical  into Link layer (or Network interface layer). It allows to simplify traffic description, even though network engineer tend to still refer to OSI model when talking about traffic and encapsulation.
 
 
@@ -158,47 +160,47 @@ IP/TCP as a child grown by OSI model is very similar to it. The difference betwe
 ### Important note:
 Every layer has its own special kit of functions. Its important to differentiate what functions are on which layer as its help to understand later on, how do different packets travel through network. Below is a list of characteristics of every layer:
 
--Layer 7 - Application :
- -This layer is closes to user.
- -It interacts with application for example web browser and is NOT one.
- -It operates on HTTP and HTTPS protocols.
- -It is used to identify communication partners.
- -It allows to synchronize communication.
+- Layer 7 - Application :
+  - This layer is closes to user.
+  - It interacts with application for example web browser and is NOT one.
+  - It operates on HTTP and HTTPS protocols.
+  - It is used to identify communication partners.
+  - It allows to synchronize communication.
 
-Layer 6 - Presentation
-Data in  application layer is "application format" that need s to be translated to different format to be sent via internet.
-Presentation layer translates between application and network formats
-It for example encrypts and decrypts data upon departure and arrival.
+- Layer 6 - Presentation
+  - Data in  application layer is "application format" that need s to be translated to different format to be sent via internet.
+  - Presentation layer translates between application and network formats
+  - It for example encrypts and decrypts data upon departure and arrival.
 
-Layer 5 - Session
-Controls bialogues (sessions) between communication hosts.
-It manages connection between local and remote application.
-It is responsile for establishing and closing these connections.
+- Layer 5 - Session
+  - Controls bialogues (sessions) between communication hosts.
+  - It manages connection between local and remote application.
+  - It is responsile for establishing and closing these connections.
 
-These 3 layes merged into Application layer are not a thing of discussion between network engeneers. They do not influence traffic but data inside. For these layers are responsible Devs.
+**These 3 layes merged into Application layer are not a thing of discussion between network engeneers. They do not influence traffic but data inside. For these layers are responsible software devs.**
 
-Layer 4 - Transport
-Encapsulated data is here called segment. Device attaches L4 header here that provides host to host connection. Main parts of L4 header is to provide destination port and protocol.
-This layer segments and reassembles data from end hosts communication.
-It devides big data pieces into smaller segmenta that can be sent over the network.
+- Layer 4 - Transport
+  - Encapsulated data is here called segment. Device attaches L4 header here that provides host to host connection. Main parts of L4 header is to provide destination port and protocol.
+  - This layer segments and reassembles data from end hosts communication.
+  - It devides big data pieces into smaller segmenta that can be sent over the network.
 
-Layer 3 - Network
-This layer is responsible for providing logical addressing for packet. It means that L3 header that is atached her includes logical adressing (IPv4).
-Data is here called Packet, it has data+L4 header+L3 Header.
-It provides connection between end hosts on diffrent networks.
-It allows for path selection from source to destination.
-Routers operate on layer 3 as they connect diffrent network together.
+- Layer 3 - Network
+  - This layer is responsible for providing logical addressing for packet. It means that L3 header that is atached her includes logical adressing (IPv4).
+  - Data is here called Packet, it has data+L4 header+L3 Header.
+  - It provides connection between end hosts on diffrent networks.
+  - It allows for path selection from source to destination.
+  - Routers operate on layer 3 as they connect diffrent network together.
 
-Layer 2 - Data Link
-This is last layer that operates of software part of traffic. 
-Data here is called Frame. This layer attachaes L2 heater as well as L2 trailer.
-It provides node-to-node connection and data transfer. (PC to switch, switch to router etc)
-It defines how data is formated for transmition over physical medium.
-It provides error detection and correction for Physical layer.
-It has its own addressing. Layer 2 addressing uses MAC adresses (BIA addresses).
-Switches operate on layer 2.
+- Layer 2 - Data Link
+  - This is last layer that operates of software part of traffic. 
+  - Data here is called Frame. This layer attachaes L2 heater as well as L2 trailer.
+  - It provides node-to-node connection and data transfer. (PC to switch, switch to router etc)
+  - It defines how data is formated for transmition over physical medium.
+  - It provides error detection and correction for Physical layer.
+  - It has its own addressing. Layer 2 addressing uses MAC adresses (BIA addresses).
+  - Switches operate on layer 2.
 
-Layer 1 - Physical
-It defines characteristics of medium used to dransfer data.
-It defines physical specification of data transfer (for example: voltage levels, maximum transmission distance, connectors or cable specs)
-Data here is split into bits and sent over the physical medium as electric current, light or electro-magnetic waves.
+- Layer 1 - Physical
+  - It defines characteristics of medium used to dransfer data.
+  - It defines physical specification of data transfer (for example: voltage levels, maximum transmission distance, connectors or cable specs)
+  - Data here is split into bits and sent over the physical medium as electric current, light or electro-magnetic waves.
