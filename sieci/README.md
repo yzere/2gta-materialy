@@ -209,3 +209,7 @@ Every layer has its own special kit of functions. Its important to differentiate
 
 When you finaly understand concept of OSI model and what layers it is composed of, you can understan encapsulation.
 Encapsulation is a process of packing a data into envelope that is secure and can be read by every intended device on its way. As said in previus part, Layer 4,3 and 2 headers as well as Layer 2 Trailer are a main part of encapsulation process.
+
+<p align="center">
+  <img src="/media/encap.gif">
+</p>
