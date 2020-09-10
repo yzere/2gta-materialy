@@ -261,7 +261,9 @@ Cheatsheet that you can download and have on hand when you study: <a href="https
 ## Config files:
 - `running-config` - configuration of device running right now
 - `startup-config` - configuration to be loaded upon restart
+
 Commands:
+
 - `show running-config` (sht. `sh run`) - shows running config
 - `show startup-config` (sht. `sh start`) - shows startup config
 - `write` / `write memory` / `copy running-config startup-config` - all 3 save running config to startup config (sht. `wr`)
