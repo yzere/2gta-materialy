@@ -259,19 +259,19 @@ Cheatsheet that you can download and have on hand when you study: <a href="https
 *Note: sht. - short version of commands
 
 ## Config files:
-`running-config` - configuration of device running right now
-`startup-config` - configuration to be loaded upon restart
---Commands:
-`show running-config` (sht. `sh run`) - shows running config
-`show startup-config` (sht. `sh start`) - shows startup config
-`write` / `write memory` / `copy running-config startup-config` - all 3 save running config to startup config (sht. `wr`)
+- `running-config` - configuration of device running right now
+- `startup-config` - configuration to be loaded upon restart
+Commands:
+- `show running-config` (sht. `sh run`) - shows running config
+- `show startup-config` (sht. `sh start`) - shows startup config
+- `write` / `write memory` / `copy running-config startup-config` - all 3 save running config to startup config (sht. `wr`)
 
 ## Passwords (in global configuration):
 
-`enable password [your_password]` (sht. `ena p` / `enable pass`) - adds password to enter exec mode and configuration (Warning!! is not secure. Use only with encryption below)
+- `enable password [your_password]` (sht. `ena p` / `enable pass`) - adds password to enter exec mode and configuration (Warning!! is not secure. Use only with encryption below)
 
-`service password-encryption` (sht. `ser p` / `serv pass`) - encrypts you passwords in running-config file. Encryption is Cisco type 7 encryption that is very easy to break, but is still better than plain text Does not affect secret bellow. Disabling will only affect future passwords.
+- `service password-encryption` (sht. `ser p` / `serv pass`) - encrypts you passwords in running-config file. Encryption is Cisco type 7 encryption that is very easy to break, but is still better than plain text Does not affect secret bellow. Disabling will only affect future passwords.
 
-`enable secret [your_secret]` (sht. `ena s` / `enable sec`) - creates secret that is MD5 encrypted and is not dependent on password encryption shown above in running config. Is the most secure so is recommended. Number of this encryption in Cisco ISO is 5.
+- `enable secret [your_secret]` (sht. `ena s` / `enable sec`) - creates secret that is MD5 encrypted and is not dependent on password encryption shown above in running config. Is the most secure so is recommended. Number of this encryption in Cisco ISO is 5.
 
 **When secret and password are enabled only secret is prompted to enter privileged mode. Password is simply ignored.
