@@ -204,3 +204,8 @@ Every layer has its own special kit of functions. Its important to differentiate
   - It defines characteristics of medium used to dransfer data.
   - It defines physical specification of data transfer (for example: voltage levels, maximum transmission distance, connectors or cable specs)
   - Data here is split into bits and sent over the physical medium as electric current, light or electro-magnetic waves.
+
+## Encapsulation and PDUs (protocol data units)
+
+When you finaly understand concept of OSI model and what layers it is composed of, you can understan encapsulation.
+Encapsulation is a process of packing a data into envelope that is secure and can be read by every intended device on its way. As said in previus part, Layer 4,3 and 2 headers as well as Layer 2 Trailer are a main part of encapsulation process.
