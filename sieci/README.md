@@ -229,6 +229,9 @@ For now it is important that you remember how do we call data on each layer of e
 
 Cheatsheet that you can download and have on hand when you study:
 
+<a href="https://community.cisco.com/kxiwq67737/attachments/kxiwq67737/4461-docs-network-infrastructure/5987/1/01.%20OSI%20Model%20CheatSheet%20-%20ATech%20(%20Waqas%20Karim%20)%20v1.2.pdf">
+Download!
 <p align="center">
   <img src="/media/cheatsheet.png">
 </p>
+</a>
