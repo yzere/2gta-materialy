@@ -214,3 +214,7 @@ Encapsulation is a process of packing a data into envelope that is secure and ca
   <img src="/media/encap.gif">
 </p>
 As you can see on image above, the data is moving down the stack beeing prepared with all nessesary data attached. Further down this note I will show exacly how each header is composed and why it is the way it is. For now it is important that you remember how do we call data on each layer of encapsulation:
+
+<p align="center" width="90%">
+  <img src="/media/pdu.jpg">
+</p>
