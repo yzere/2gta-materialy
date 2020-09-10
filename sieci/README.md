@@ -233,3 +233,45 @@ Cheatsheet that you can download and have on hand when you study: <a href="https
   <img src="/media/cheatsheet.png">
 </p>
 </a>
+
+# Notatka 4: Wstęp do CLI i konfiguracja wstępna / Introduction to CLI and pre-configuration
+
+**To start with CLI connect to console port via Rollover Cable with RJ45/USB MicroB to COM1 connectors. Use Putty with mode Serial, Port 9600 and default serial settings (8 data bits, 1 stop bit, Flow Control: NONE)
+
+Modes:
+1. User EXEC mode (default when entering CLI)
+   - allows to see certain things
+2. Privileged EXEC mode (command: enable)
+   - allows to see configuration, restart device etc
+3. Global configuration (command: configure terminal)
+   - allows to configure device settings and save them
+   
+Useful tricks:
+- `*** ?` - shows all available commands
+- `***?` - shows all available endings
+- Cisco ISO CLI require you to only type this part of command that is unique between others ex: enable-->en  not "e" alone because there are two options: enable, exit; configure terminal-->conf t; etc.
+- Cisco ISO CLI also autocompletes commands with TAB key.
+- `exit` - to exit global conf
+- `end` - to exit global conf for interfaces etc
+- `do [your_commands]` - use in global config mode when executing privileged exec commands ex: do sh run - to show running config file
+- `no [command]` - disables command from running config
+
+Note: sht. - short version of commands
+
+Config files:
+running-config - configuration of device running right now
+startup-config - configuration to be loaded upon restart
+--Commands:
+show running-config (sht. sh run) - shows running config
+show startup-config (sht. sh start) - shows startup config
+write / write memory / copy running-config startup-config - all 3 save running config to startup config (sht. wr)
+
+Passwords (in global configuration):
+
+enable password [your_password] (sht. ena p / enable pass) - adds password to enter exec mode and configuration (Warning!! is not secure. Use only with encryption below)
+
+service password-encryption (sht. ser p / serv pass) - encrypts you passwords in running-config file. Encryption is Cisco type 7 encryption that is very easy to break, but is still better than plain text Does not affect secret bellow. Disabling will only affect future passwords.
+
+enable secret [your_secret] (sht. ena s / enable sec) - creates secret that is MD5 encrypted and is not dependent on password encryption shown above in running config. Is the most secure so is recommended. Number of this encryption in Cisco ISO is 5.
+
+When secret and password are enabled only secret is prompted to enter privileged mode. Password is simply ignored.
