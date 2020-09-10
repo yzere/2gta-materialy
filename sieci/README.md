@@ -227,4 +227,8 @@ For now it is important that you remember how do we call data on each layer of e
 
 <a href="https://pasja-informatyki.pl/sieci-komputerowe/model-tcp-ip-iso-osi/">Po polsku: Mirosław Zelent o modelach TCP/IP oraz OSI </a>
 
+Cheatsheet that you can download and have on hand when you study:
 
+<p align="center">
+  <img src="/media/cheatsheet.png">
+</p>
