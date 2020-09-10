@@ -149,7 +149,7 @@ Links to one of the best explanations of OSI model as well as its real world exa
 <br>
 
 OSI model specifies how (what protocol, what format, what data, what voltage) network traffic is processed, send, recived and read by media devices. Process of packing network data into these 7 layers is called Encapsulation. It allows to, following standards, pack data into packets that can be processed by any device on its way.
-<br>
+<br></br>
 IP/TCP as a child grown by OSI model is very similar to it. The difference between the two is that IP/TCP merges aplicaton, presentation and sesion into one layer, Application. It also merges data link and physical  into Link layer (or Network interface layer). It allows to simplify traffic description, even though network engineer tend to still refer to OSI model when talking about traffic and encapsulation.
 
 
@@ -177,7 +177,7 @@ Every layer has its own special kit of functions. Its important to differentiate
   - It manages connection between local and remote application.
   - It is responsile for establishing and closing these connections.
 
-**These 3 layes merged into Application layer are not a thing of discussion between network engeneers. They do not influence traffic but data inside. For these layers are responsible software devs.**
+**These 3 layes merge into one Application layer in TCP/IP model, and they are not a thing of discussion between network engeneers. They do not influence traffic but data inside. For these layers are responsible software devs.**
 
 - Layer 4 - Transport
   - Encapsulated data is here called segment. Device attaches L4 header here that provides host to host connection. Main parts of L4 header is to provide destination port and protocol.
@@ -193,7 +193,7 @@ Every layer has its own special kit of functions. Its important to differentiate
 
 - Layer 2 - Data Link
   - This is last layer that operates of software part of traffic. 
-  - Data here is called Frame. This layer attachaes L2 heater as well as L2 trailer.
+  - Data here is called Frame. This layer attachaes L2 header as well as L2 trailer.
   - It provides node-to-node connection and data transfer. (PC to switch, switch to router etc)
   - It defines how data is formated for transmition over physical medium.
   - It provides error detection and correction for Physical layer.
