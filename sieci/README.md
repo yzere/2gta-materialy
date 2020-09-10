@@ -213,8 +213,18 @@ Encapsulation is a process of packing a data into envelope that is secure and ca
 <p align="center" width="90%">
   <img src="/media/encap.gif">
 </p>
-As you can see on image above, the data is moving down the stack beeing prepared with all nessesary data attached. Further down this note I will show exacly how each header is composed and why it is the way it is. For now it is important that you remember how do we call data on each layer of encapsulation:
+*As you can see on image above, the data is moving down the stack beeing prepared with all nessesary data attached. Further down this note I will show exacly how each header is composed and why it is the way it is. 
 
-<p align="center" width="90%">
+For now it is important that you remember how do we call data on each layer of encapsulation:
+
+<p align="center">
   <img src="/media/pdu.jpg">
 </p>
+
+### Additional reading materials:
+
+<a href="https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/">CloudFlare explaination of OSI layers </a>
+
+<a href="https://pasja-informatyki.pl/sieci-komputerowe/model-tcp-ip-iso-osi/">Po polsku: Mirosław Zelent o modelach TCP/IP oraz OSI </a>
+
+# Notatka 4: Budowa warstw modelu OSI / OSI model layers composition
