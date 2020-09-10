@@ -133,32 +133,37 @@ Pin layout and functions of RJ-45 connector, that is the most popular interface 
 This briefly means that networking models try to gather together ways our media devices can communicate so that we dont encounter not compatible elements.
 
 ### Disclaimer:
-** OSI model is precursor of todays IP/TCP suit. Sheer OSI model is not in use today but network engineers tend to refare to OSI model when talking about data on network. It is important that you also understand concepts of IP/TCP suit and its correlations to OSI model. It will allow for greater understanding of network basics.** 
+**OSI model is precursor of todays IP/TCP suit. Sheer OSI model is not in use today but network engineers tend to refare to OSI model when talking about data on network. It is important that you also understand concepts of IP/TCP suit and its correlations to OSI model. It will allow for greater understanding of network basics. **
 
 Links to one of the best explanations of OSI model as well as its real world examples:
 <a href="https://www.youtube.com/watch?v=CRdL1PcherM"> OSI model explaination </a>
+<br>
 <a href="https://www.youtube.com/watch?v=3kfO61Mensg"> OSI model real world examples </a>
 
-Definition of OSI model
-The Open Systems Interconnection model (OSI model) is a conceptual model that characterises and standardises the communication functions of a telecommunication or computing system without regard to its underlying internal structure and technology.
+## Definition of OSI model
 
-OSI stack can be a bit tricky to understand, but to put it in simple terms:
+> The Open Systems Interconnection model (OSI model) is a conceptual model that characterises and standardises the communication functions of a telecommunication or computing system without regard to its underlying internal structure and technology.
 
-OSI model specifies how (what protocol, what format, what data, what voltage) network traffic is processed, send, recived and read by media devices. Process of packing network data into these 7 layers is called Encapsulation. It allows to, following standards, pack data into packets that can be processed by any device on its way.
+### OSI stack can be a bit tricky to understand, but to put it in simple terms:
+
+> OSI model specifies how (what protocol, what format, what data, what voltage) network traffic is processed, send, recived and read by media devices. Process of packing network data into these 7 layers is called Encapsulation. It allows to, following standards, pack data into packets that can be processed by any device on its way.
 
 IP/TCP as a child grown by OSI model is very similar to it. The difference between the two is that IP/TCP merges aplicaton, presentation and sesion into one layer, Application. It also merges data link and physical  into Link layer (or Network interface layer). It allows to simplify traffic description, even though network engineer tend to still refer to OSI model when talking about traffic and encapsulation.
 
-Not all packets are wraped in 7 layers. For example ARP requests operate on layer 2 utilizing MAC adresses to get to destination. Where as ping command that uses ICMP protocal, operates on layer 3 using logical IP addresses. I highly recomend you dive deep into understanding OSI stack as it gives all networking concept more sense.
 
-Important note:
+*Not all packets are wraped in 7 layers. For example ARP requests operate on layer 2 utilizing MAC adresses to get to destination. Where as ping command that uses ICMP protocal, operates on layer 3 using logical IP addresses. I highly recomend you dive deep into understanding OSI stack as it gives all networking concept more sense.*
+
+## OSI model layers
+
+### Important note:
 Every layer has its own special kit of functions. Its important to differentiate what functions are on which layer as its help to understand later on, how do different packets travel through network. Below is a list of characteristics of every layer:
 
-Layer 7 - Application :
-This layer is closes to user.
-It interacts with application for example web browser and is NOT one.
-It operates on HTTP and HTTPS protocols.
-It is used to identify communication partners.
-It allows to synchronize communication.
+-Layer 7 - Application :
+ -This layer is closes to user.
+ -It interacts with application for example web browser and is NOT one.
+ -It operates on HTTP and HTTPS protocols.
+ -It is used to identify communication partners.
+ -It allows to synchronize communication.
 
 Layer 6 - Presentation
 Data in  application layer is "application format" that need s to be translated to different format to be sent via internet.
